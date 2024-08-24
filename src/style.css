@@ -1,0 +1,43 @@
+:root {
+  font-family: Roboto, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  color-scheme: light;
+  color: #4D4D4D;
+
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+
+}
+
+a {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 23.4px;
+  color: #000000;
+}
+
+body {
+  margin: 0;
+  display: flex;
+  min-width: 320px;
+  min-height: 100dvh;
+  padding: 48px;
+}
+
+@media(max-width: 581px) {
+  body {
+    padding: 24px;
+  }
+}
+
+
+
+#app {
+  width: 1416px;
+  margin: 0 auto;
+}
