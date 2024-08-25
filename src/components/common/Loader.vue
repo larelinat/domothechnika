@@ -1,4 +1,5 @@
 <script setup lang="ts">
+  // @ts-ignore
   import RingLoader from "vue-spinner/src/RingLoader.vue";
 
   const props = defineProps<{
