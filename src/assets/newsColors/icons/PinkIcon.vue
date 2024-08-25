@@ -1,5 +1,5 @@
 <script setup lang="ts">
-
+// @ts-ignore
 const props = defineProps<{
   width?: string,
   height?: string,
