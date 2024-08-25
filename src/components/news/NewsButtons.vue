@@ -2,7 +2,7 @@
 
 import {NewsColors, NewsIcons} from "../../assets/newsColors/newsColor.ts";
 import {computed} from "vue";
-
+// @ts-ignore
 const props = defineProps<{
   fetchRandomNews: (color: NewsColors) => void;
 }>();
