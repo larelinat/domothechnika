@@ -2,11 +2,9 @@
 
 import {NewsColors, NewsIcons} from "../../assets/newsColors/newsColor.ts";
 import {computed} from "vue";
-
-const props = defineProps<{
+defineProps<{
   fetchRandomNews: (color: NewsColors) => void;
 }>();
-
 const greenButtonStyle = computed(() => ({
   backgroundColor: NewsColors.green,
   color: "#FFFFFF"

@@ -1,6 +1,5 @@
 <script setup lang="ts">
-
-const props = defineProps<{
+defineProps<{
   width?: string,
   height?: string,
   iconColor: string
